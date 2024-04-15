@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>About</title>
+ <style>
+ body {
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ background:linear-gradient(to right, paleturquoise,orange);
+}
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+.column {
+ float: left;
+ width: 33.3%;
+ margin-bottom: 16px;
+ padding: 0 8px;
+}
+.card {
+ box-shadow: 0 4px 8px 0 blue;
+ margin: 8px;
+}
+.about-section {
+ padding: 30px;
+ text-align: center;
+ color: black;
+}
+.container {
+ padding: 0 16px;
+}
+.container::after, .row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+.title {
+ color:blue;
+}
+.button {
+ border: none;
+ outline: 0;
+ display: inline-block;
+ padding: 8px;
+ color: wheat;
+ background-color:royalblue;
+ text-align: center;
+ cursor: pointer;
+ width: 100%;
+}
+.row{
+ display: flex;
+}
+.button:hover {
+ background-color:red;
+}
+@media screen and (max-width: 650px) {
+ .column {
+ width: 100%;
+ display: block;
+ }
+}
+#about{
+ display: flex;
+}
+.sub{
+ color:black
+}
+ </style>
+</head>
+<body>
+ <div class="about-section">
+
+ <div id="about">
+ <div class="landimage">
+ <img src="/images/pet3.jpg" alt="" width="400px" height="400px">
+ </div>
+ <div class="landing">
+ <h1>About Us</h1>
+ <br>
+ <br>
+ <br>
+ <h1 class="sub">Welcome to Pet Care Community</h1>
+ <p>Welcome to our website where your Pets Deserve the Best Care
+    Join us in providing top-quality care and support for pets of all kinds.we are passionate about pets and dedicated to providing a comprehensive platform for all things related to pet care. Whether you're a seasoned pet owner or considering bringing a furry friend into your life, we're here to support you every step of the way.
+</p>
+ </div>
+ </div>
+ <h2 style="text-align:center" class="sub">Our Team Members</h2>
+ <div class="row">
+ <div class="column">
+ <div class="card">
+
+ <div class="container">
+ <h2>charitha D</h2>
+ <p class="title">CEO & Founder</p>
+ 
+ 
+    
+    <p>Email: cherry@gmail.com</p>
+    <p>Phone: 1234567890</p>
+    
+    <a href="contact.html" target="_blank"><button
+class="button">Contact</button></a>
+ </div>
+ </div>
+ </div>
+
+ <div class="column">
+ <div class="card">
+
+ <div class="container">
+ <h2>lucky M</h2>
+ <p class="title">Art Director</p>
+ <p>Email: lucky@gmail.com</p>
+ <p>Phone: 9234567890</p>
+ 
+ <a href="contact.html"><button class="button">Contact</button></a>
+ </div>
+ </div>
+ </div>
+
+ <div class="column">
+ <div class="card">
+ <div class="container">
+ <h2>Lahari K</h2>
+ <p class="title">Designer</p>
+ <p>Email: lahari@gmail.com</p>
+ <p>Phone: 8234567890</p>
+ <a href="contact.html"><button class="button">Contact</button></a>
+ </div>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+
+ <div class="container">
+ <h2>hari k</h2>
+ <p class="title">Developer</p>
+ <p>Email: hari@gmail.com</p>
+ <p>Phone: 7234567890</p>
+ <a href="contact.html"><button class="button">Contact</button></a>
+ </div>
+ </div>
+ </div>
+
+</body>

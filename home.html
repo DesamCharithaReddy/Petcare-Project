@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - PetPal</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+.navbar-nav li a {
+    margin-right: 30px;
+    font-size: 20px;
+}
+.nav-link {
+    color: black !important;
+}
+.navbar-brand {
+    color: blue !important;
+    font-size: 40px;
+}
+#home {
+    background-color: rgb(255, 188, 162);
+    background-color: paleturquoise;
+    width: 100%;
+    height: 100vh;
+}
+#home img {
+    width: 700px;
+    height: 700px;
+}
+.landimage {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#landcontent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.landing h1, .landing p {
+    text-align: center;
+    margin-top: 40px;
+}
+.landing button {
+    transform: translateX(300%);
+    border: none;
+    border: 2px solid red;
+    margin-top: 30px;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+    color: white;
+}
+.navbar {
+    background-color: orange !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+.hidden-before-login {
+    display: none;
+}
+</style>
+</head>
+<body>
+<div id="home">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">PETPAL</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="home.html">Home</a>
+</li>
+<li class="nav-item hidden-before-login">
+<a class="nav-link" href="registration.html">Registration</a>
+</li>
+<li class="nav-item hidden-before-login">
+<a class="nav-link" href="login.html">Login</a>
+</li>
+<li class="nav-item hidden-before-login">
+<a class="nav-link" href="services.html">Services</a>
+</li>
+<li class="nav-item hidden-before-login">
+<a class="nav-link" href="products.html">Products</a>
+</li>
+<li class="nav-item hidden-before-login">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+<li class="nav-item hidden-before-login">
+    <a class="nav-link" href="admin.html">Products</a>
+    </li>
+<li class="nav-item">
+    <a class="nav-link" href="registration.html">Register</a>
+</li>
+<li class="nav-item">
+   <a class="nav-link" href="login.html">Login</a>
+</li>
+
+
+</ul>
+</div>
+</nav>
+<div id="landcontent">
+<div class="landimage">
+<img src="/images/pet2.jpg" alt="">
+</div>
+<div class="landing">
+<h1>Welcome to Pet Care Community</h1>
+<p>Welcome to our website where your Pets Deserve the Best Care
+Join us in providing top-quality care and support for pets of all kinds. We are passionate about pets and dedicated to providing a comprehensive platform for all things related to pet care. Whether you're a seasoned pet owner or considering bringing a furry friend into your life, we're here to support you every step of the way.</p>
+<a href="registration.html"><button>Register</button></a>
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
